@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' , sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #5a5a5a;
+}
+img{
+    cursor: pointer;
+}
+.flex-div{
+    display: flex;
+    align-items: center;
+}
+nav{
+    padding: 8px 2%; /*height of the nav bar*/
+    justify-content: space-between;   /*creating space between images*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.2); /*creating shadow effect*/
+    background: #fff;
+    position: static; /*fixed position*/
+    top: 0; /*top position*/
+    z-index: 10; /*z-index which is for the top layer of the page*/
+}
+.navright img{
+    width: 25px; /*width of the each image*/
+    margin-right: 25px; /*margin-right of each image*/
+
+}
+.navright .user-icon{
+    width: 35px; /*width of the user icon*/
+    border-radius: 50%; /*border-radius of the user icon*/
+    margin-right: 0;
+}
+.navleft .menu-icon{
+    width: 20px; /*width of the menu icon*/
+    margin-right: 25px; /*margin-right of the menu icon*/
+}
+.navleft .logo{
+    width: 120px; /*width of the logo*/
+    margin-left: 0;
+}
+.navleft .menu-icon{
+    width: 30px;
+}
