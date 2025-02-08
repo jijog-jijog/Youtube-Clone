@@ -39,9 +39,6 @@ nav{
     margin-right: 25px; /*margin-right of the menu icon*/
 }
 .navleft .logo{
-    width: 120px; /*width of the logo*/
+    width: 100px; /*width of the logo*/
     margin-left: 0;
-}
-.navleft .menu-icon{
-    width: 30px;
 }
